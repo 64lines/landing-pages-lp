@@ -4,7 +4,8 @@
     "hasFAQ": true,
     "hasSignUpForm": true,
     "hasPricingAndPlans": true,
-    "hasSocial": true,
-    "hasServicesCarousel": true,
-    "hasContactForm": true
+    "hasServicesCarousel": false,
+    "hasContactForm": true,
+    "hasPricing": true,
+    "hasSocial": true
 }

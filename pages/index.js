@@ -3,21 +3,30 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import ContentCards from '../components/ContentCards';
 import ServicesCarousel from '../components/ServicesCarousel';
-import About from '../components/About';
 import Footer from '../components/Footer';
-import variability from '../config/variability.json';
 import Speakers from "../components/Speakers";
+import CompaniesList from "../components/CompaniesList";
+import FAQ from "../components/FAQ";
+
+/* Configuration */
+import variability from '../config/variability.json';
+import landingPage from '../config/landingpage.json'
+import SignUpForm from "../components/SignUpForm";
+import Pricing from "../components/Pricing";
 
 const Index = () => {
   return (
-    <Layout pageTitle="Landing Page Nextjs">
-      <Header />
-      <Hero />
-      <ContentCards />
+    <Layout pageTitle={`${landingPage.title} Landing Page`}>
+      <Header/>
+      <Hero/>
+      <ContentCards/>
       <Speakers isRendered={variability.hasSpeakers} />
       <ServicesCarousel isRendered={variability.hasServicesCarousel} />
-      <About />
-      <Footer />
+      <CompaniesList isRendered={variability.hasCompaniesList} />
+      <SignUpForm isRendered={variability.hasSignUpForm}/>
+      <Pricing isRendered={variability.hasPricing}/>
+      <FAQ isRendered={variability.hasFAQ}/>
+      <Footer hasSocial={variability.hasSocial}/>
     </Layout>
   )
 }

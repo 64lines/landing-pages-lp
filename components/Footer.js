@@ -1,20 +1,17 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
+import configData from '../config/data.json';
+import landingPage from '../config/landingpage.json';
 
-const Footer = () => {
+const Footer = ({ hasSocial }) => {
+  const data = configData.find(data => data.id === landingPage.id).socialConfig;
+  const socialLinks = hasSocial ? [data.socialLinks] : [];
+
   const links = [
-    { id : 1, title : "Feature",
-      child : [
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" }
-      ]
-    },
     { id : 2, title : "About Us",
       child : [
           { title : "Contact Us", link : "/" },
-          { title : "FAQs", link : "/" },
+          { title : "FAQs", link : "#faq" },
           { title : "Privacy Policy", link : "/" },
       ]
     },
@@ -32,6 +29,20 @@ const Footer = () => {
           </Col>
           <Col lg={8}>
             <Row>
+              {
+                socialLinks.map((link, key) =>
+                  <Col key={key} md={4}>
+                    <h6 className="text-dark mb-3">{link.title}</h6>
+                    <ul className="list-unstyled company-sub-menu">
+                      {
+                        link.child.map((fLink, key) =>
+                          <li key={key}><a href={fLink.link}>{fLink.title}</a></li>
+                        )
+                      }
+                    </ul>
+                  </Col>
+                )
+              }
               {
                 links.map((link, key) =>
                   <Col key={key} md={4}>
@@ -64,7 +75,7 @@ const Footer = () => {
         <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted">
-              <p className="mb-0 f-15">2020 © Name. Design by Name</p>
+              <p className="mb-0 f-15">2022 © Landing Page. Design by Landing Pages Product Line Assembly</p>
             </div>
           </Col>
         </Row>

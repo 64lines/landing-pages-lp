@@ -1,0 +1,290 @@
+[
+    {
+        "id": "conference-borrell",
+        "headerConfig": {
+            "pageTitle": "Borrell Miami 2022",
+            "links": [
+                {
+                    "link": "/",
+                    "name": "Home"
+                },
+                {
+                    "link": "#features",
+                    "name": "What's BORELL Miami?"
+                },
+                {
+                    "link": "#speakers",
+                    "name": "Speakers"
+                },
+                {
+                    "link": "#companies",
+                    "name": "Sponsors"
+                },
+                {
+                    "link": "#faq",
+                    "name": "FAQ"
+                }
+            ]
+        },
+        "heroConfig": {
+            "title": "Borrell Miami 2022",
+            "description": "Local Advertising Conference",
+            "buttonText": "Sign in",
+            "backgroundImage": "https://ourposhan.com/wp-content/uploads/2021/03/The-Advantages-of-Conferences.jpg"
+        },
+        "contentCardsConfig": {
+            "title": "",
+            "description": "",
+            "cards": [
+                {
+                    "id": 1,
+                    "img": "./images/conference_photo.png",
+                    "title": "What is BORRELL Miami?",
+                    "desc": "After 10 years in Manhattan, our famed event moved in 2020 to a warmer climate. We had to skip 2021 due to COVID, but we were back in Miami in 2022. Hundreds of industry leaders come together for the largest gathering of local advertising executives. Our conference is all about local, and all about advertising and marketing.  Some call it the “skip the hype/follow the money” conference. The event attracts 300 to 500 marketing executives who come to network and to learn from dozens of top-name speakers.",
+                    "link": "/"
+                }
+            ]
+        },
+        "speakersConfig": {
+            "title": "Speakers",
+            "description": "",
+            "speakers": [
+                {
+                    "id": 1,
+                    "img": "./images/woman1.jpeg",
+                    "title": "Tatiana Vodianova",
+                    "desc": "Tatiana is a SHRM Certified Professional with more than 15 years of experience in senior leadership and all aspects of Human Resources in the public and private sectors. As a strategic change agent, she is credited with decreasing employee turnover, increasing employee engagement and satisfaction, and improving organizational culture.",
+                    "link": "/"
+                },
+                {
+                    "id": 2,
+                    "img": "./images/man1.jpeg",
+                    "title": "Andreas Moreros",
+                    "desc": "Andreas has more than two decades of experience creating, evolving and managing several leading Internet, sports, media and entertainment properties. He joined DraftKings as Chief Business Officer in October 2017. He is responsible for expanding DraftKings’ business strategy, ad sales, international expansion and digital media, further solidifying the company’s position at the intersection of sports, technology and media, while advancing its footprint in the content space.",
+                    "link": "/"
+                },
+                {
+                    "id": 3,
+                    "img": "./images/woman2.jpeg",
+                    "title": "Maria Parra",
+                    "desc": "Maria is the Vice President of Sales for iPublish Media Solutions, a Legacy.com company, where she is living out her life long passion for finding technology solutions to increase advertising and audience engagement continues.",
+                    "link": "/"
+                },
+                {
+                    "id": 3,
+                    "img": "./images/man2.jpeg",
+                    "title": "Jose Arteaga",
+                    "desc": "Jose is the CEO / Co-Founder of Force Marketing and its family of brands which include WeDrive and GSM. With over 15 years in the automotive marketing industry and has been featured in top publications such as CBT News and Automotive News. ",
+                    "link": "/"
+                },
+                {
+                    "id": 3,
+                    "img": "./images/woman3.jpeg",
+                    "title": "Clara Belleu",
+                    "desc": "Clara has worked for the past 17 years with media companies that include The Wall Street Journal, Chicago Tribune, E.W. Scripps, and Gray Television. ",
+                    "link": "/"
+                }
+            ]
+        },
+        "servicesCarouselConfig": {
+            "title": "",
+            "services": [
+                {
+                    "title": "Lorem Ipsum",
+                    "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                },
+                {
+                    "title": "Lorem Ipsum",
+                    "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                },
+                {
+                    "title": "Lorem Ipsum",
+                    "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                },
+                {
+                    "title": "Lorem Ipsum",
+                    "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                },
+                {
+                    "title": "Lorem Ipsum",
+                    "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                },
+                {
+                    "title": "Lorem Ipsum",
+                    "desc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                }
+            ]
+        },
+        "faqConfig": {
+            "title": "Frequent Asked Questions",
+            "questions": [
+                {
+                    "question": "How do I register for the meeting?",
+                    "answer": "Register for the meeting by visiting the Annual Meeting website. There, you can either complete the online form or print a PDF version of the form and fax or mail it to the Borrell Conference office. Borrell Conference accepts all major credit cards, except Discover, as well as checks for payment."
+                },
+                {
+                    "question": "What is included in the cost of my registration?",
+                    "answer": "You will receive a name badge and program when you arrive on site. With your name badge, you have access to attend all of the plenary sessions, the concurrent sessions and the Welcome Reception."
+                },
+                {
+                    "question": "Are meals included with my registration?",
+                    "answer": "Borrell Conference will provide daily breakfasts and several coffee breaks throughout the meeting. The Welcome Reception includes cash bar. The evening event on Monday night includes light fare a drink ticket, as well as cash bar."
+                },
+                {
+                    "question": "Can I cancel my registration?",
+                    "answer": "Yes. To cancel your registration, contact the NAPCRG office (913) 906-6148 or jsutter@napcrg.org. After October 16th, no refunds will be given for meeting registrations or special event tickets."
+                },
+                {
+                    "question": "How can I buy tickets for special events?",
+                    "answer": "When you complete the Annual Meeting registration form, you have the option to purchase tickets for special events during the meeting. If you would like to purchase tickets after you have already registered, contact Julie Sutter at jsutter@napcrg.org."
+                }
+            ]
+        },
+        "signUpFormConfig": {
+            "title": "Sign up form",
+            "description": "Register to the conference just by filling the following form."
+        },
+        "companiesListConfig": {
+            "title": "Sponsors",
+            "companies": [
+                {
+                    "img": "./images/company1.jpeg"
+                },
+                {
+                    "img": "./images/company2.png"
+                },
+                {
+                    "img": "./images/company3.png"
+                },
+                {
+                    "img": "./images/company4.png"
+                },
+                {
+                    "img": "./images/company5.png"
+                },
+                {
+                    "img": "./images/company6.png"
+                }
+            ]
+        },
+        "pricingConfig": {
+            "title": "Pricing & Plans",
+            "description": "We offer the following ticket prices for the conference",
+            "pricing": [
+                {
+                    "title": "Exhibition floor only",
+                    "background": "bg-danger",
+                    "price": "550",
+                    "features": [
+                        {
+                            "checked": true,
+                            "name": "Access to exhibition floor"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Curated content across 30+ topics"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Educational masterclasses"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Searchable attendee list"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Executive lounge access"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Forum lounge access"
+                        }
+                    ]
+                },
+                {
+                    "title": "General attendee",
+                    "background": "bg-success",
+                    "price": "755",
+                    "features": [
+                        {
+                            "checked": true,
+                            "name": "Access to exhibition floor"
+                        },
+                        {
+                            "checked": true,
+                            "name": "Curated content across 30+ topics"
+                        },
+                        {
+                            "checked": true,
+                            "name": "Educational masterclasses"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Searchable attendee list"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Executive lounge access"
+                        },
+                        {
+                            "checked": false,
+                            "name": "Forum lounge access"
+                        }
+                    ]
+                },
+                {
+                    "title": "Executive",
+                    "background": "bg-warning",
+                    "price": "1250",
+                    "features": [
+                        {
+                            "checked": true,
+                            "name": "Access to exhibition floor"
+                        },
+                        {
+                            "checked": true,
+                            "name": "Curated content across 30+ topics"
+                        },
+                        {
+                            "checked": true,
+                            "name": "Educational masterclasses"
+                        },
+                        {
+                            "checked": true,
+                            "name": "Searchable attendee list"
+                        },
+                        {
+                            "checked": true,
+                            "name": "Executive lounge access"
+                        },
+                        {
+                            "checked": true,
+                            "name": "Forum lounge access"
+                        }
+                    ]
+                }
+            ]
+        },
+        "socialConfig": {
+            "socialLinks": {
+                "id": 1,
+                "title": "Social",
+                "child": [
+                    {
+                        "title": "Instagram",
+                        "link": "https://instagram.com/instagram"
+                    },
+                    {
+                        "title": "Facebook",
+                        "link": "https://facebook.com/facebook"
+                    },
+                    {
+                        "title": "Twitter",
+                        "link": "https://twitter.com/twitter"
+                    }
+                ]
+            }
+        }
+    }
+]
