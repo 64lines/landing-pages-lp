@@ -43,8 +43,8 @@ const Header = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               {data.links.map((link, key) => (
-                <NavItem>
-                  <NavLink key={key} href={link.link}>{link.name}</NavLink>
+                <NavItem key={key}>
+                  <NavLink href={link.link}>{link.name}</NavLink>
                 </NavItem>
               ))}
             </Nav>

@@ -13,6 +13,7 @@ import variability from '../config/variability.json';
 import landingPage from '../config/landingpage.json'
 import SignUpForm from "../components/SignUpForm";
 import Pricing from "../components/Pricing";
+import ContactForm from "../components/ContactForm";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <Header/>
       <Hero/>
       <ContentCards/>
+      <ContactForm isRendered={variability.hasContactForm}/>
       <Speakers isRendered={variability.hasSpeakers} />
       <ServicesCarousel isRendered={variability.hasServicesCarousel} />
       <CompaniesList isRendered={variability.hasCompaniesList} />

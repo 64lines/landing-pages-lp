@@ -1,5 +1,97 @@
 [
     {
+        "id": "startup-powell",
+        "headerConfig": {
+            "pageTitle": "Powell and Sons",
+            "links": [
+                {
+                    "link": "/",
+                    "name": "Home"
+                },
+                {
+                    "link": "#contact",
+                    "name": "Request service"
+                },
+                {
+                    "link": "#contact",
+                    "name": "Request a quote"
+                },
+                {
+                    "link": "#contact",
+                    "name": "Contact us"
+                }
+            ]
+        },
+        "heroConfig": {
+            "title": "Powell and Sons",
+            "description": "",
+            "buttonText": "Get a quote",
+            "backgroundImage": "./images/powell.png"
+        },
+        "contentCardsConfig": {
+            "title": "",
+            "description": "",
+            "cards": [
+                {
+                    "id": 1,
+                    "img": "https://powellandsons.com/wp-content/themes/nokeyword/images/service-photo-default.jpg",
+                    "title": "Find Services Offered By Professionals",
+                    "desc": "Find the help you need to get your project done right with Powell and Sons. If you are searching for home services, we can quickly get you connected. Tell us about your project and we will get you in touch with our professionals.",
+                    "link": "/"
+                },
+                {
+                    "id": 1,
+                    "img": "https://powellandsons.com/wp-content/uploads/sites/19/2021/11/Powell-and-Sons-Pic.jpg",
+                    "title": "About us",
+                    "desc": "At Powell and Sons, we are proud to provide our customers with the best possible home services experience. We believe in showing up on time and getting the job done right the first time, at a good value for your hard-earned money. Our contractors cover a wide range of services and look forward to helping you improve or repair your home. Contact us today for a no obligation, free quote! Please contact us if you have any questions at 980-880-0615.",
+                    "link": "/"
+                }
+            ]
+        },
+        "contactFormConfig": {
+            "title": "Free Quote",
+            "description": "",
+            "buttonText": "Get a quote"
+        },
+        "servicesCarouselConfig": {
+            "title": "How it works",
+            "services": [
+                {
+                    "title": "1.",
+                    "desc": "Tell us about your project, service address, and how to get in touch."
+                },
+                {
+                    "title": "2.",
+                    "desc": "We connect you with our trained service professionals to help with your job. If we can't serve you due to market availability or capacity, we will connect you with a vetted partner."
+                },
+                {
+                    "title": "3.",
+                    "desc": "A trusted professional will contact you about your project."
+                }
+            ]
+        },
+        "socialConfig": {
+            "socialLinks": {
+                "id": 1,
+                "title": "Social",
+                "child": [
+                    {
+                        "title": "Instagram",
+                        "link": "https://instagram.com/instagram"
+                    },
+                    {
+                        "title": "Facebook",
+                        "link": "https://facebook.com/facebook"
+                    },
+                    {
+                        "title": "Twitter",
+                        "link": "https://twitter.com/twitter"
+                    }
+                ]
+            }
+        }
+    },
+    {
         "id": "conference-borrell",
         "headerConfig": {
             "pageTitle": "Borrell Miami 2022",
