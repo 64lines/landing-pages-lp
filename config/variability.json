@@ -1,11 +1,11 @@
 {
-    "hasSpeakers": true,
-    "hasCompaniesList": true,
-    "hasFAQ": true,
-    "hasSignUpForm": true,
-    "hasPricingAndPlans": true,
-    "hasServicesCarousel": false,
+    "hasSpeakers": false,
+    "hasCompaniesList": false,
+    "hasFAQ": false,
+    "hasSignUpForm": false,
+    "hasPricingAndPlans": false,
+    "hasServicesCarousel": true,
     "hasContactForm": true,
-    "hasPricing": true,
+    "hasPricing": false,
     "hasSocial": true
 }
