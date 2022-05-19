@@ -23,19 +23,19 @@ const Pricing = ({ isRendered }) => {
         </Row>
         <Row>
           {data.pricing.map((plan, key) => (
-            <div class="col-lg-4" key={key}>
-              <div class={`card ${plan.background} mb-5 mb-lg-0 rounded-lg shadow`}>
-                <div class="card-header">
-                  <h5 class="card-title text-white-50 text-uppercase text-center">{plan.title}</h5>
-                  <h6 class="h1 text-white text-center">${plan.price}<span class="h6 text-white-50"></span></h6>
+            <div className="col-lg-4" key={key}>
+              <div className={`card ${plan.background} mb-5 mb-lg-0 rounded-lg shadow`}>
+                <div className="card-header">
+                  <h5 className="card-title text-white-50 text-uppercase text-center">{plan.title}</h5>
+                  <h6 className="h1 text-white text-center">${plan.price}<span className="h6 text-white-50"></span></h6>
                 </div>
-                <div class="card-body bg-light rounded-bottom">
-                  <ul class="list-unstyled mb-4">
+                <div className="card-body bg-light rounded-bottom">
+                  <ul className="list-unstyled mb-4">
                     {plan.features.map((feature, key) => (
-                      <li class="mb-3"><span class="mr-3"><i class={feature.checked ? "fas fa-check text-success" : "fas fa-check fa-times"}>{feature.checked ? "✓" : "✖️" }</i></span>{feature.name}</li>
+                      <li className="mb-3"><span className="mr-3"><i className={feature.checked ? "fas fa-check text-success" : "fas fa-check fa-times"}>{feature.checked ? "✓" : "✖️" }</i></span>{feature.name}</li>
                     ))}
                   </ul>
-                  <a href="#" class="btn btn-block btn-primary text-uppercase rounded-lg py-3">Buy now</a>
+                  <a href="#" className="btn btn-block btn-primary text-uppercase rounded-lg py-3">Buy now</a>
                 </div>
               </div>
             </div>
